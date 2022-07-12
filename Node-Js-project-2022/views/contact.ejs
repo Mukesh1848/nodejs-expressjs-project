@@ -1,0 +1,53 @@
+<%- include('./include/header.ejs') %>
+<div class="container-fluid">
+        <div class="row">
+                <div class="col-sm-2">
+     <%- include('./include/sidebar.ejs') %>
+                </div>
+                <div class="col-sm-10">
+                     <div class="contact">
+                        <div class="heading">
+                                <h1 class="text-warning">Contact</h1>
+                                <hr class="bg-light">
+                            </div> 
+                            <div class="form text-light my-4">
+                                <form>
+                                        <div class="form-group">
+                                          <label for="text">UserName:</label>
+                                          <input type="email" class="form-control" id="username" aria-describedby="emailHelp" placeholder="Enter UserName" autocomplete="off">
+                                        </div>
+                                        <div class="form-group">
+                                                <label for="text">Email address</label>
+                                                <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Enter email" autocomplete="off">
+                                              </div>
+                                        <div class="form-group">
+                                          <label for="password">Password</label>
+                                          <input type="password" class="form-control" id="password" placeholder="Password" autocomplete="off">
+                                        </div>
+                                        <div class="form-group">
+                                                <label for="password">Description</label>
+                                                <textarea class="form-control" placeholder="Write your queries here..." id="exampleFormControlTextarea1" rows="3" autocomplete="off"></textarea>
+                                              </div>
+                                        <button type="submit" class="btn btn-primary">Submit</button>
+                                      </form>
+                            </div>
+                            <div class="contact-info">
+                                <div class="our-info">
+                                        <p><i class="fa-solid fa-location-dot"></i></p>
+                                        <p>Indore,Madhya Pradesh,India</p>
+                                </div>
+                                <div class="our-info">
+                                        <p><i class="fa-solid fa-mobile-retro"></i></p>
+                                        <p>+91 9103025069</p>
+                                </div>
+                                <div class="our-info">
+                                        <p><i class="fa-solid fa-envelope"></i></p>
+                                        <p>rajkumar123@12gmail.com</p>
+                                </div>
+                            </div>
+                     </div>   
+                </div>
+        </div>
+</div>
+
+<%- include('./include/footer.ejs') %>
